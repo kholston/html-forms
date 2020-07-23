@@ -58,5 +58,38 @@ button{
 }
 .service-logos img{
   height: 23px;
-  
 }
+
+.form-container{
+  font: 14px;
+  padding: 30px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 380px;
+  height: 673px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.form-header{
+  text-align: center;
+  color: #4C4C4C;
+  padding-bottom: 20px;
+}
+
+.form-title{
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 400;
+  display: block;
+}
+
+.subheader{
+  display: block;
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 300;
+}
+
