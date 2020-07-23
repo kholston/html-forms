@@ -34,23 +34,32 @@
           </span>
         </div>
         <form action="">
-          <label for="email">Email address</label>
-          <input type="email" name="email" id="email">
-          <label for="phone">Phone(recommended)</label>
-          <small>Standard call, messaging or data rates may apply.</small>
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-          <button>Create Account</button>
+          <fieldset class="fieldset-email">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" name="email" id="email" class="input-field">
+          </fieldset>
+          <fieldset class="fieldset-phone">
+            <label for="phone" class="form-label">Phone (recommended)</label>
+            <input type="tel" name="phone" id="phone" class="input-field">
+            <small>Standard call, messaging or data rates may apply.</small>
+          </fieldset>
+          <fieldset class="fieldset-password">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" id="password" class="input-field">
+          </fieldset>
+          <button class="form-button">Create Account</button>
         </form>
         <footer class="terms">By clicking Create Account, you agree to our <br>
           <a href="">Terms</a> and have read and acknowledge our 
           <a href="">Privacy Statement.</a>
         </footer>
-        <section class="recaptcha">
-          <small>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>
-            and <a href="">Terms of Use</a>.
-          </small>
-        </section>
+        <div class="recaptcha-wrapper">
+          <section class="recaptcha">
+            <span>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a>
+              and <a href="">Terms of Use</a>.
+            </span>
+          </section>
+        </div>
       </div>
       <footer>
         <div class="footer-links">

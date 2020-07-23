@@ -6,6 +6,7 @@
   font-weight: normal;
   margin: 0;
   font-size: 12px;
+  text-align: center;
 }
 body{
   background-color: rgb(236, 238, 241)
@@ -61,8 +62,9 @@ button{
 }
 
 .form-container{
-  font: 14px;
+  font-size: 14px;
   padding: 30px;
+  padding-bottom: 0;
   border: 1px solid #c7c7c7;
   border-radius: 2px;
   background-color: #fff;
@@ -72,6 +74,9 @@ button{
   line-height: 1.5;
 }
 
+form{
+  padding-bottom: 34px;
+}
 .form-header{
   text-align: center;
   color: #4C4C4C;
@@ -93,3 +98,72 @@ button{
   font-weight: 300;
 }
 
+form > *{
+  text-align: left;
+  display: block;
+  font-size: 14px;
+}
+
+label{
+  color: #404040;
+  line-height: 25px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.input-field{
+  width: 320px;
+  min-width: 160px;
+  height: 34px;
+  position: relative;
+}
+
+fieldset{
+  outline: none;
+  padding: 0;
+  border: 0;
+}
+fieldset  label{
+  padding-bottom: 6px;
+  display: block;
+}
+
+.fieldset-email{
+  height: 95px;
+}
+.fieldset-phone{
+  height: 115px;
+}
+.fieldset-password{
+  height: 98px;
+}
+
+.form-button{
+  width: 318px;
+  height: 44px;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.terms{
+  height: 63px;
+  width: 318px;
+}
+.recaptcha-wrapper{
+  width: 378px;
+  height: 60px;
+  margin-left: -30px;
+  background-color: #ECEEF1;
+}
+.recaptcha{
+  display: block;
+  margin: 32px 0 -30px 0;
+  padding: 16px;
+}
+
+.recaptcha span,
+.recaptcha a{
+  font-size: 10px;
+  color: #8d9096;
+}
