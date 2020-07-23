@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=ß, initial-scale=1.0">
   <title>Intuit Accounts - Sign Up</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="styles.cssß">
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 <body>
   <section>
     <div class="nav-container">
-      <div class="account">
-        <span>Already have an Intuit account?</span>
-        <a href="">I forgot my User ID or Password</a>
+      <div class="nav">
+        <div class="header-column">
+          <div>Already have an Intuit account?</div>
+          <a href="">I forgot my User ID or Password</a>
+        </div>
+        <button class="header-column signin">Sign In</button>
       </div>
-      <button>Sign In</button>
     </div>
     <div class="header">
       <div class="header-logo"><img src="/images/intuit-logo.png" alt="intuit logo"></div>
@@ -36,7 +38,7 @@
           <small>Standard call, messaging or data rates may apply.</small>
           <label for="password">Password</label>
           <input type="password" name="password" id="password">
-          <input type="submit" value="Create Account">
+          <button>Create Account</button>
         </form>
         <footer class="terms">By clicking Create Account, you agree to our <br>
           <a href="">Terms</a> and have read and acknowledge our 
