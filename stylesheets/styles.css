@@ -30,13 +30,25 @@ button{
 .nav{
   float: right;
 }
-.header-column{
+.nav-column{
   float: left;
   margin-left: 10px;
   text-align: right;
+  line-height: 1.5;;
 }
 .signin{
   height: 34px;
   padding: 0 20px;
   font-size: 1.125em;
+}
+
+.logo-center{
+  text-align: center;
+}
+.header{
+  height: 75px;
+  padding: 20px;
+}
+.intuit-logo img{
+  height: 35px;
 }
