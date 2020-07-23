@@ -167,3 +167,26 @@ fieldset  label{
   font-size: 10px;
   color: #8d9096;
 }
+
+.page-footer{
+  padding: 20px 0;
+  text-align: center;
+  line-height: 1.5;
+}
+.links-container{
+  display: block;
+  padding: 0;
+}
+.links-container :first-child{
+  display: inline;
+}
+
+.links-container li{
+  display: inline;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.copyright{
+  font-size: 12px;
+}
